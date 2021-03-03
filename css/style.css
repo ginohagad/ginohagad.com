@@ -1,13 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+body {
+    font-family: 'DM Serif Text', serif;
+}
+
+#logo {
+    color: #2079B2; 
+    text-shadow: 1px 1px 2px black;
+    /* width: 40%;
+    height: auto;
+    vertical-align: middle; */
+}
+
+nav ul li a {
+    color: #2079B2;
+}
+
+#menu-icon {
+    color: #000;
+}
+
+#header-name {
+    text-shadow: 1px 1px 2px black;
 }
